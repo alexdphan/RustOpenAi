@@ -20,8 +20,6 @@ All I had to do was decide on a [use case](https://beta.openai.com/examples/)...
 
 It was fun to send them wierd messages, but hopefully I'll expand more on this project during my free time.
 
---- 
-
 ## How to Use
 
 1. Clone/Fork this repo
@@ -34,5 +32,5 @@ It was fun to send them wierd messages, but hopefully I'll expand more on this p
    
 5. Type "Cargo Run"
    
-6. Ask any question and have fun :D
+6. Ask any questions and have fun :D
 
