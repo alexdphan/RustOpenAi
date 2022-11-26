@@ -44,7 +44,7 @@ let uri = "https://api.openai.com/v1/engines/text-davinci-001/completions"; // O
 let preamble = "Answer the following question accurately, but find a funny way to mention the word \"ducklings\" in your answer:"; // preamble for the prompt
 
 let key = "OAI_TOKEN";
-env::set_var(key, "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");
+env::set_var(key, "");
 
 let oai_token: String = env::var("OAI_TOKEN").unwrap(); // getting the OAI_TOKEN from the environment variables
 // If some, unwrap, else (none) panic

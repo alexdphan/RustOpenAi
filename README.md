@@ -19,3 +19,19 @@ All I had to do was decide on a [use case](https://beta.openai.com/examples/)...
 ---
 
 It was fun to send them wierd messages, but hopefully I'll expand more on this project during my free time.
+
+--- 
+
+## How to Use
+
+1. Clone/Fork this repo
+   
+2. Get an [API secret key](https://beta.openai.com/account/api-keys) from OpenAI
+   
+3. Go to your terminal and set OAI_TOKEN=YOUR_API_KEY
+
+4. Modify the premble variable to display how you want the AI to respond 
+   
+5. Type "Cargo Run"
+   
+6. Ask any question and have fun :D
