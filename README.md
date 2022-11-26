@@ -15,3 +15,7 @@ All I had to do was decide on a [use case](https://beta.openai.com/examples/)...
 ---
 
 ### My use case was... To troll my friends lol
+
+---
+
+It was fun to send them wierd messages, but hopefully I'll expand more on this project during my free time.

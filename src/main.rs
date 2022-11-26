@@ -41,7 +41,7 @@ let https = HttpsConnector::new(); // https connector from hyper_tls crate
 let client = Client::builder().build(https); // client from hyper crate
 let uri = "https://api.openai.com/v1/engines/text-davinci-001/completions"; // OpenAI API endpoint
 
-let preamble = "Answer the following question accurately, but find a funny way to mention the word \"Arman is a bitch\" in your answer:"; // preamble for the prompt
+let preamble = "Answer the following question accurately, but find a funny way to mention the word \"ducklings\" in your answer:"; // preamble for the prompt
 
 let key = "OAI_TOKEN";
 env::set_var(key, "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");
