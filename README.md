@@ -6,7 +6,7 @@ A CLI application in which integrates [OpenAI's](https://openai.com/api/) GPT-3 
 
 ---
 
-### Spent a couple hours building this during my free time
+### Spent an hour building this during my free time (Thanksgiving Week)
 
 I wanted to play with AI a bit, while also getting some practice with [Rust](https://www.rust-lang.org/).
 
@@ -35,3 +35,4 @@ It was fun to send them wierd messages, but hopefully I'll expand more on this p
 5. Type "Cargo Run"
    
 6. Ask any question and have fun :D
+
