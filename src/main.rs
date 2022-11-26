@@ -3,8 +3,10 @@ use hyper::{header, Body, Client, Request};
 use hyper_tls::HttpsConnector;
 use serde_derive::{Deserialize, Serialize};
 use spinners::{Spinner, Spinners};
+use dotenv::dotenv;
 use std::env; // env module for env variables, OpenAi access key
 use std::io::{stdin, stdout, Write};
+
 
 #[derive(Deserialize, Debug)]
 struct OAIChoices {
@@ -37,6 +39,7 @@ struct OAIRequest {
 #[tokio::main] // using async functions
 // Box type to handle errors
 async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
+dotenv().ok(); // load env variables from .env file
 let https = HttpsConnector::new(); // https connector from hyper_tls crate
 let client = Client::builder().build(https); // client from hyper crate
 let uri = "https://api.openai.com/v1/engines/text-davinci-001/completions"; // OpenAI API endpoint

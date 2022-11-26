@@ -26,7 +26,7 @@ It was fun to send them wierd messages, but hopefully I'll expand more on this p
    
 2. Get an [API secret key](https://beta.openai.com/account/api-keys) from OpenAI
    
-3. Go to your terminal and set OAI_TOKEN=YOUR_API_KEY
+3. Go to your terminal or make a .env file and set OAI_TOKEN=YOUR_API_KEY
 
 4. Modify the premble variable to display how you want the AI to respond 
    
